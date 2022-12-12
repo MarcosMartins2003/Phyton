@@ -25,7 +25,7 @@ for count in range (100):
     print("               |_| |_|\___/ \__\___|_|")
     os.system('cls')
 
-name = input(" ______________________________________________________________________________________\n\n|Bem Vindo ao Hotel, é um prazer ter você aqui no nosso sistema de reservas automatico!| \n|Para começarmos, qual o seu nome?                                                     | \n----------------------------------------------------------------------------------------\n ")
+name = input("Bem Vindo ao Hotel, é um prazer ter você aqui no nosso sistema de reservas automatico!\nPara começarmos, digite seu nome!")
 
 while menuB == 1:
     person = int(input("Deseja Reservar para quantas pessoas ? \n"))
